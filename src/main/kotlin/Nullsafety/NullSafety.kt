@@ -11,7 +11,8 @@ package Nullsafety
         print("1")
 
         print("2")
-/*dsdfsdf
+
+        /*
         elvis_short?.let {
             print("I'm not null")
         } ?: run {
