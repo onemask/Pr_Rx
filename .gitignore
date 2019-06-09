@@ -1,81 +1,161 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
 *.iml
-out
-gen### Eclipse template
+local.properties
 
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+# Directories #
+/build/
+/bin/
+target/
+.idea
+classes/
+META-INF/
+
+# OS Files #
+.DS_Store
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# OSX
+######################
+
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+######################
+# Eclipse
+######################
+
+*.pydevproject
+.project
 .metadata
-bin/
-tmp/
+bin/**
+tmp/**
+tmp/**/*
 *.tmp
 *.bak
 *.swp
 *~.nib
-local.properties
+.classpath
 .settings/
 .loadpath
-.recommenders
-
+/src/main/resources/rebel.xml
 # External tool builders
 .externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
 *.launch
 
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
-
-# CDT-specific (C/C++ Development Tooling)
+# CDT-specific
 .cproject
 
-# CDT- autotools
-.autotools
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
+# PDT-specific
 .buildpath
 
-# sbteclipse plugin
-.target
+# Created by https://www.gitignore.io/api/intellij
 
-# Tern plugin
-.tern-project
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# TeXlipse plugin
-.texlipse
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
 
-# STS (Spring Tool Suite)
-.springBeans
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
 
-# Code Recommenders
-.recommenders/
+.idea/**/mongoSettings.xml
 
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
+## File-based project format:
+*.iws
 
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
 .gradle/4.10.3/fileChanges/
 .gradle/4.10.3/fileContent/
 .gradle/4.10.3/fileHashes/fileHashes.lock
+.gradle/4.10.3/fileHashes/resourceHashesCache.bin
 .gradle/4.10.3/gc.properties
+.gradle/4.10.3/javaCompile/
 .gradle/4.10.3/taskHistory/
 .gradle/4.10.3/vcsMetadata-1/
 .gradle/buildOutputCleanup/
 .gradle/vcs-1/
+.idea/
 build.gradle
+build/
 gitignore
 gradle.properties
 gradle/
 gradlew
 gradlew.bat
 settings.gradle
-src/main/kotlin/
 src/main/resources/
 src/test/

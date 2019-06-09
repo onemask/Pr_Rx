@@ -17,7 +17,6 @@ public class FistExample {
     public static void main(String args[]){
         /*FirstExample demo = new FirstExample();
         demo.emit();*/
-
         /**
          * Callable Example
          */

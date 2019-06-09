@@ -1,0 +1,5 @@
+package initalized
+
+class initialized {
+
+}
