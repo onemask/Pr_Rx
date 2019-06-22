@@ -1,5 +1,7 @@
 package chapt5;
 
+import common.Log;
+import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
@@ -10,6 +12,11 @@ public class Schedulers {
                 .subscribe(System.out.println();;*/
         //Why is only user in subscirbe in method Reperence?
 
+        Observable.just("Hello", "RxJava2 ")
+                .subscribe(System.out::println);
+
+        Observable.just("Hello","RxJava","U SO HARD TO LEARN TO ME!!")
+                .subscribe(Log::i);
 
         //결과를 수신할때 처리하는 Observer
         Observer<String> mObserver = new Observer<String>() {
@@ -33,6 +40,8 @@ public class Schedulers {
                 System.out.println("onComplete");
             }
         };
+
+
 
 
     }
