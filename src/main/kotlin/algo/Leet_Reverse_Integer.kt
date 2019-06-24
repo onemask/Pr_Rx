@@ -15,14 +15,14 @@ class Solution {
         if (x < Int.MIN_VALUE && x > Int.MAX_VALUE - 1)
             return 0
         else {
-            return if (x > 0)
-                x.toString().reversed().toInt()?.also {
-                    if (it > Int.MAX_VALUE)
-                        return 0
+            return if (x > 0) {
+                x.toString().reversed().toInt().also {
+                    return if (it > Int.MAX_VALUE)
+                        0
                     else
-                        return it
+                        it
                 }
-            else
+            } else
                 (x * -1).toString().reversed().toInt() * -1
 
         }
