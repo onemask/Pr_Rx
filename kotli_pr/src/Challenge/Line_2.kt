@@ -1,4 +1,4 @@
-package Challenge/*
+package challenge/*
 class Line_2 {
     fun solution(answer_sheet: String, sheets: Array<String>): Int {
         var answer = -1

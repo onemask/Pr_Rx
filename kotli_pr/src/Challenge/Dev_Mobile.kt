@@ -1,4 +1,4 @@
-package Challenge
+package challenge
 
 class Dev_Mobile {
     companion object {

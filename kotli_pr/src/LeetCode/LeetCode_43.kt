@@ -1,4 +1,4 @@
-package LeetCode/*
+package leetCode/*
 class LeetCode_43 {
     fun maxSubArray(nums: IntArray): Int {
         var answer = 0

@@ -1,4 +1,4 @@
-package Programers
+package programers
 
 class Programers_clothes {
     fun solution(clothes: Array<Array<String>>): Int {

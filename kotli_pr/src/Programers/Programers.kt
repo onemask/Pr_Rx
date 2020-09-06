@@ -1,4 +1,4 @@
-package Programers/*
+package programers/*
 class Programers {
     fun solution1(input: Array<String>, participation: Array<String>): String {
         var answer = ""

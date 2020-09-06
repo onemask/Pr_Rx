@@ -1,4 +1,4 @@
-package Challenge
+package challenge
 
 class This2 {
     fun solution(answers: IntArray): IntArray {

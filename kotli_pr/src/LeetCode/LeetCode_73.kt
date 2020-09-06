@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 class LeetCode_73 {
     fun climbStairs(n: Int): Int {

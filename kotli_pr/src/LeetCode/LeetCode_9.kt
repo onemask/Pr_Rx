@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 fun countBits2(num: Int): IntArray {
     val answer = mutableListOf(0)

@@ -1,4 +1,4 @@
-package Challenge
+package challenge
 
 class Solution {
     fun solution(

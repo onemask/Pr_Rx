@@ -1,4 +1,4 @@
-package Challenge/*
+package challenge/*
 class Dev_Mobile3() {
     fun solution(command: String, buttons: Array<String>, scores: IntArray): Int {
         var answer = 0

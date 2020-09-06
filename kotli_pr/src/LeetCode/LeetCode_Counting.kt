@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 class LeetCode_Counting {
     fun countBits(num: Int): IntArray {

@@ -1,4 +1,4 @@
-package LeetCode/*
+package leetCode/*
 class LeetCode_May_Week1_4 {
     fun findComplement(num: Int): Int {
         print(" true ${ convertDecimalToBinary(10).toInt()}")

@@ -1,4 +1,4 @@
-package Challenge
+package challenge
 
 class Coupang {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {

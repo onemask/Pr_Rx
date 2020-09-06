@@ -1,4 +1,4 @@
-package Challenge
+package challenge
 
 class This {
     private val primeSet = hashSetOf<Int>()

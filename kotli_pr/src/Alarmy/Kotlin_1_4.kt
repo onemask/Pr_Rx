@@ -1,4 +1,4 @@
-package Alarmy
+package alarmy
 
 class Kotlin_1_4 {
 

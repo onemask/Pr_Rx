@@ -1,4 +1,4 @@
-package LeetCode
+package leetCode
 
 /**
  * // Challenge.This is the BinaryMatrix's API interface.

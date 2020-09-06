@@ -1,4 +1,4 @@
-package LeetCode/*
+package leetCode/*
 Input: s = "abc", shift = [[0,1],[1,2]]
 Output: "cab"
 Explanation:

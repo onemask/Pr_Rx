@@ -1,4 +1,4 @@
-package LeetCode/*
+package leetCode/*
     Input:
     [
       [1,1,1],
