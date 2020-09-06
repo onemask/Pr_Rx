@@ -2,7 +2,7 @@ package leetCode
 
 import kotlin.math.min
 
-class LeetCode_Squre() {
+class LeetCode_Squre {
     fun countSquares(matrix: Array<IntArray>): Int {
         val counts = IntArray(matrix[0].size)
         var topLeft = 0
@@ -33,7 +33,7 @@ fun countBits(num: Int): IntArray {
             answer.add(n.countOneBits())
         }
     }
-    print("answer ${answer.toString()}")
+    print("answer $answer")
     return answer.toIntArray()
 }
 

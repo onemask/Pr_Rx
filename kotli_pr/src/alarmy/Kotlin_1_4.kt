@@ -1,9 +1,6 @@
 package alarmy
 
-class Kotlin_1_4 {
-
-
-}
+class Kotlin_1_4
 
 fun main() {
     print("kotlin $ ${KotlinVersion.CURRENT}\"")

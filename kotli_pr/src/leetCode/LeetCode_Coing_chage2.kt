@@ -2,7 +2,7 @@ package leetCode
 import java.util.*
 
 
-class LeetCode_Coing_chage2() {
+class LeetCode_Coing_chage2 {
     fun change(amount: Int, coins: IntArray): Int {
         val dp = IntArray(amount + 1).apply { this[0] = 1 }
         for (coin in coins)
@@ -11,6 +11,7 @@ class LeetCode_Coing_chage2() {
                     dp[currAmt] += dp[currAmt - coin]
         return dp[amount]
     }
+
     private fun solution(target: Int, arr: IntArray): Int {
         Arrays.sort(arr)
         var left = 0

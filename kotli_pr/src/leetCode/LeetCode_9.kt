@@ -9,7 +9,7 @@ fun countBits2(num: Int): IntArray {
             answer.add(n.countOneBits())
         }
     }
-    print("answer ${answer.toString()}")
+    print("answer $answer")
     print("answer ${KotlinVersion}")
 
     return answer.toIntArray()
