@@ -33,7 +33,7 @@ fun main() {
     val one = before(x = 1, 2)
     val two = before(1, y = 2)
 
-    val after_one = after(str = "This is a String!", false, wordSeparator = null)
+    val after_one = after(str = "Challenge.This is a String!", false, wordSeparator = null)
 }
 
 fun before(x: Int, y: Int) {}
