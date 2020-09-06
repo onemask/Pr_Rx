@@ -14,7 +14,7 @@ class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
 
-class Leet_TDL() {
+class Leet_TDL {
     fun middleNode(head: ListNode?): ListNode? {
         val A = arrayOfNulls<ListNode>(100)
         var t = 0
